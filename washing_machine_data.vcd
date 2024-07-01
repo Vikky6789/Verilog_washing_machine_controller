@@ -1,0 +1,182 @@
+$date
+	Thu Jun 27 12:51:16 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module washing_machine_tb $end
+$var wire 1 ! water_wash $end
+$var wire 1 " soap_wash $end
+$var wire 1 # motor_on $end
+$var wire 1 $ fill_value_on $end
+$var wire 1 % drain_value_on $end
+$var wire 1 & door_lock $end
+$var wire 1 ' done $end
+$var reg 1 ( clk $end
+$var reg 1 ) cycle_timeout $end
+$var reg 1 * detergent_added $end
+$var reg 1 + door_close $end
+$var reg 1 , drained $end
+$var reg 1 - filled $end
+$var reg 1 . reset $end
+$var reg 1 / spin_timeout $end
+$var reg 1 0 start $end
+$scope module machine1 $end
+$var wire 1 ( clk $end
+$var wire 1 ) cycle_timeout $end
+$var wire 1 * detergent_added $end
+$var wire 1 + door_close $end
+$var wire 1 , drained $end
+$var wire 1 - filled $end
+$var wire 1 . reset $end
+$var wire 1 / spin_timeout $end
+$var wire 1 0 start $end
+$var parameter 3 1 add_detergent $end
+$var parameter 3 2 check_door $end
+$var parameter 3 3 cycle $end
+$var parameter 3 4 drain_water $end
+$var parameter 3 5 fill_water $end
+$var parameter 3 6 spin $end
+$var reg 3 7 current_state [2:0] $end
+$var reg 1 ' done $end
+$var reg 1 & door_lock $end
+$var reg 1 % drain_value_on $end
+$var reg 1 $ fill_value_on $end
+$var reg 1 # motor_on $end
+$var reg 3 8 next_state [2:0] $end
+$var reg 1 " soap_wash $end
+$var reg 1 ! water_wash $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b101 6
+b1 5
+b100 4
+b11 3
+b0 2
+b10 1
+$end
+#0
+$dumpvars
+bx 8
+bx 7
+00
+0/
+1.
+0-
+0,
+0+
+0*
+0)
+0(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#50
+0'
+0!
+0"
+0%
+0$
+0&
+b0 8
+b0 7
+1(
+0.
+#100
+1&
+b1 8
+0(
+1+
+10
+#150
+1(
+#200
+0(
+1-
+#250
+1(
+#300
+0(
+1*
+#350
+1(
+#400
+0(
+1)
+#450
+1(
+#500
+0(
+1,
+#550
+1(
+#600
+0(
+1/
+#650
+1(
+#700
+0(
+#750
+1(
+#800
+0(
+#850
+1(
+#900
+0(
+#950
+1(
+#1000
+0(
+#1050
+1(
+#1100
+0(
+#1150
+1(
+#1200
+0(
+#1250
+1(
+#1300
+0(
+#1350
+1(
+#1400
+0(
+#1450
+1(
+#1500
+0(
+#1550
+1(
+#1600
+0(
+#1650
+1(
+#1700
+0(
+#1750
+1(
+#1800
+0(
+#1850
+1(
+#1900
+0(
+#1950
+1(
+#2000
+0(
